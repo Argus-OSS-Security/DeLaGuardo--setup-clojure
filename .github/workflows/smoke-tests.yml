@@ -1,6 +1,7 @@
 name: Smoke tests
 
-on: [push]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: [push]
 
 jobs:
   # Deprecated version identifier

@@ -1,10 +1,11 @@
 name: No Auth test
 
-on:
-  push:
-    branches:
-      - main
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
+# 
 jobs:
   no-auth-tests:
     runs-on: ubuntu-latest
